@@ -1,0 +1,22 @@
+{
+  "name": "data-either",
+  "version": "0.0.1",
+  "description": "Simple TypeScript/ES2017 class to represent either values",
+  "main": "./lib/Either.js",
+  "types": "./lib/Either.d.ts",
+  "repository": "scorchpt/data-either",
+  "keywords": [
+    "js",
+    "immutable",
+    "either",
+    "monadic",
+    "data",
+    "values",
+    "container"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro M. Silva <pemiolsi@hotmail.com>",
+  "license": "ISC"
+}
