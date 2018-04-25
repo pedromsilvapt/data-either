@@ -1,5 +1,3 @@
-import { Optional } from "./Optional";
-
 export interface Mapper<T, U> {
     ( value : T ) : U;
 }
@@ -226,7 +224,6 @@ export class Either<L, R> {
     }
 
     reduce<O> ( left : Mapper<L, O>, right : Mapper<R, O> ) : O {
-        console.log( this.isLeft(), this.isRight(), left, right );
         if ( this.isLeft() ) {
             return left( this.left );
         } else if ( this.isRight() ) {
